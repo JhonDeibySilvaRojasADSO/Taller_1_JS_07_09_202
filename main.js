@@ -1,13 +1,14 @@
 addEventListener ("DOMContentLoaded", ()=>{
-    //7. Escribir un programa que calcule el volumen de una esfera: Radio = 3 volumen de la esfera = 4/3 * PI * radio˄3
-    let div=Number(4/3)
-    // ${match.PI}
+    //Escribir un programa que evalúe la siguiente expresión: (a+7*c)/(b+2-a)+2*b
+    let numA=Number (prompt(`ingrese el numero`,10));
+    let numB=Number (prompt(`ingrese el numero`,12));
+    let numC=Number (prompt(`ingrese el numero`,15));
+    let num1=Number (prompt(`ingrese el numero`,2));
+    let num2=Number (prompt(`ingrese el numero`,7));
     
-    let Radio=3
-    let pi=3.14
-    let v=4/3
-    let Vesfera=float
-    let (v*pi*Radio**3)
+    let total=(numA+num1*numC)/(numB+num2-numA)+num2*numB
     
-    console.log("VOLUMEN DE LA ESFERA",Vesfera)
+    //salida o entrega de resultados
+    
+    console.log("VALOR DE LA EXPRESION ",`${total}`);
 })
