@@ -1,10 +1,13 @@
-adaddEventListener("DOMContentLoaded", ()=>{
-    //Escribir un programa que calcule la velocidad de un proyectil que recorre 2 Km en 5 minutos. Expresar el resultado en metros/segundo. Velocidad = espacio/tiempo.
-    let mets=2*1000
-    let segs=60*5
-    let tiempo=5
-    let ms=mets/segs
-    let v=mets/tiempo
-    console.log("metros/segundos:",ms);
-    console.log("velocidad:",v);
+addEventListener ("DOMContentLoaded", ()=>{
+    //7. Escribir un programa que calcule el volumen de una esfera: Radio = 3 volumen de la esfera = 4/3 * PI * radio˄3
+    let div=Number(4/3)
+    // ${match.PI}
+    
+    let Radio=3
+    let pi=3.14
+    let v=4/3
+    let Vesfera=float
+    let (v*pi*Radio**3)
+    
+    console.log("VOLUMEN DE LA ESFERA",Vesfera)
 })
