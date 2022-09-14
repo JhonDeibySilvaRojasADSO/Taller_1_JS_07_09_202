@@ -1,10 +1,9 @@
-addEventListener("DOMContentLoaded", ()=>{
-    // definir variables numericas 
-    // un programa 
-    let p=Number(prompt("precio del producto:"))
-    let f=0.1
-    // operaciones basicas ,*
-    let res=p*f
-    let des=p-res
-    console.log("precio final :",des)
+addEventListener("DOMContentLoaded", ()=>{// definir variables numericas 
+// un programa 
+let grados=Number(prompt("grados centigrados"))
+
+// operaciones basicas ,*
+let f=(9/5)*grados+32
+
+console.log("fahrenheit :",f)
 })
