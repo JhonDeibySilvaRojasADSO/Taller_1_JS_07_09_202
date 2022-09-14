@@ -1,13 +1,23 @@
 addEventListener("DOMContentLoaded", ()=>{
-    // definir variables numericas 
-    // un programa 
-    let a=Number(prompt("nota 1 parcial:"))
-    let b=Number(prompt("nota 2 parcial:"))
-    let c=Number(prompt("nota 3 parcial:"))
-    let ex=Number(prompt("calificacion de examen final:"))
-    let fl=Number(prompt("trabajo final:"))
-    // operaciones basicas ,*
-    let pr=(a+c+b)/3
-    let fm=(pr*0.55)+(ex*0.30)+(fl*0.15)
-    console.log("promedio final :",fm)
+// definir variables numericas 
+// un programa 
+//17 VALOR DEL COSTO DEL PRODUCTO
+//Datos de entrada
+console.log("ingrese el nombre del primer producto:")
+let p1=console.log()
+let p1v=Number(prompt("valor del producto:"))
+
+console.log("ingrese el nombre del segundo  producto:")
+let p2=console.log()
+let p2v=Number(prompt("valor del producto:"))
+
+
+//procesos
+let Subttl = p1v+p2v
+let iva= Number(Subttl*0.19)
+let total= Number(Subttl + iva)
+//salidas o entrega de resultados
+console.log("el subtotal fue",Subttl)
+console.log("El iva fue",iva)
+console.log("El total a pagar con iva fue",total)
 })
