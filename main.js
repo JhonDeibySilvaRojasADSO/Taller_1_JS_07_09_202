@@ -1,13 +1,12 @@
 addEventListener("DOMContentLoaded", ()=>{
-    //datos de entrada
-    let nota1=Number(prompt("coloque aqui la primera nota"))
-    let nota2=Number(prompt("coloque aqui la segunda nota"))
-    let nota3=Number(prompt("coloque aqui la tercera nota"))
-    let nota4=Number(prompt("coloque aqui la cuarta nota"))
-    let suma=(nota1+nota2+nota3+nota4)/4
-    if (suma>3)
-      console.log("aprobado")
-    if (suma<3)
-      console.log("reprobado")
-    console.log("nota final;",suma)
+//datos de entrada 
+//sueldo
+let sueldo=Number(prompt("ingrese el sueldo:"))
+let a=Number(prompt("ingrese la venta 1:"))
+let b=Number(prompt("ingrese la venta 2:"))
+let c=Number(prompt("ingrese la venta 3:"))
+let comision=(a+b+c)*.10
+console.log("el suledo del trabajador es $",sueldo)
+console.log("la comision del el mes es $",comision)
+console.log("el sueldo total con comision $",sueldo+comision)
 })
