@@ -1,10 +1,10 @@
 addEventListener("DOMContentLoaded", ()=>{
-// definir variables numericas // un programa 
-let d=Number(prompt("distancia:"))
-let t=Number(prompt("tiempo recorrido:"))
-//operaciones basicas ,*// operacion
-let v=((d*1000)/(t*3600))
-let t1=d
-console.log("velocidad :", v ) 
-console.log("tiempo :",t1)
+    // definir variables numericas 
+    // un programa 
+    let p=Number(prompt("precio del producto:"))
+    let f=0.1
+    // operaciones basicas ,*
+    let res=p*f
+    let des=p-res
+    console.log("precio final :",des)
 })
