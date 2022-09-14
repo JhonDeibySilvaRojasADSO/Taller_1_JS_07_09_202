@@ -1,12 +1,10 @@
 addEventListener("DOMContentLoaded", ()=>{
-    // definir variables numericas 
-    // un programa 
-    // operaciones basicas ,*/
-    let dr=prompt("duracion de la llamada: ");
-    let min=355
-    let iva=0.20
-    //operacion
-    let res=((dr*min)*iva);
-    let sum=res+(dr*min);
-    console.log("llamda telefonica : ",sum);
+// definir variables numericas // un programa 
+let d=Number(prompt("distancia:"))
+let t=Number(prompt("tiempo recorrido:"))
+//operaciones basicas ,*// operacion
+let v=((d*1000)/(t*3600))
+let t1=d
+console.log("velocidad :", v ) 
+console.log("tiempo :",t1)
 })
