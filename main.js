@@ -1,12 +1,11 @@
 addEventListener("DOMContentLoaded", ()=>{
-//datos de entrada 
-//sueldo
-let sueldo=Number(prompt("ingrese el sueldo:"))
-let a=Number(prompt("ingrese la venta 1:"))
-let b=Number(prompt("ingrese la venta 2:"))
-let c=Number(prompt("ingrese la venta 3:"))
-let comision=(a+b+c)*.10
-console.log("el suledo del trabajador es $",sueldo)
-console.log("la comision del el mes es $",comision)
-console.log("el sueldo total con comision $",sueldo+comision)
+    //datos de entrada
+    //calcule la distancia
+    let rc=5
+    let x=7
+    let y=3
+    //procesos u operaciones
+    let d=rc*((x*2-x*1)**2+(y*2-y*1)**2)
+    //salida o entrga de resultados
+    console.log("distancia calculada:",d)
 })
