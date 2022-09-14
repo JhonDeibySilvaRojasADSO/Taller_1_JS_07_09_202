@@ -1,10 +1,12 @@
 addEventListener("DOMContentLoaded", ()=>{
-    // 11.Escribir un programa que calcule el volumen de un elipsoide V = (4/3) * PI * a * b *c
-    
-    let a = Number(prompt("Ingrese valor para a:"))
-    let b = Number(prompt("Ingrese valor para b:"))
-    let c = Number(prompt("Ingrese valor para c:"))
-
-
-    console.log(`El volumen de elipsoide es: ${(4/3)*(Math.PI)*a*b*c}`);
+    // definir variables numericas 
+    // un programa 
+    // operaciones basicas ,*/
+    let dr=prompt("duracion de la llamada: ");
+    let min=355
+    let iva=0.20
+    //operacion
+    let res=((dr*min)*iva);
+    let sum=res+(dr*min);
+    console.log("llamda telefonica : ",sum);
 })
